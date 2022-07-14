@@ -1,0 +1,251 @@
+body{
+    font-family: "Roboto" , sans-serif;
+}
+/*navbar*/
+.navbar{
+    background-image: linear-gradient(to right ,#668cff, #e6ecff); 
+}
+/*main page*/
+.main-page{
+     min-height: calc(100vh - 57px); 
+     background-image: url(../images/12.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     border-radius: 10px;
+}
+.mainPage-contents h1{
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.mainPage-contents p{
+    color: #fff;
+    font-size: 15px;
+}
+.main-elements{
+    position: relative;
+    height: 75px;
+    border:none;
+    width:100%;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+}
+.m-element h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 12px;
+    line-height: 0.5;
+    
+}
+.m-element input[type="search"]{
+    border:none;
+    font-size: 14px;
+    outline: none;
+    color: cadetblue;
+}
+.m-element input[type="date"]{
+    border: none;
+    outline: none;
+    margin-left:5px;
+    font-size: 15px;
+}
+    
+.line1:after{
+    content: "";
+    position: absolute;
+    height: 80%;
+    width:1px ;
+    background: #ebebe0;
+    margin: 10px 0;
+}
+.box1{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+.box1 p{
+    font-size: 14px;
+}
+.box1 .image-sec{
+    width: 80px;
+    background:#ebebe0;
+    border-radius: 10px;
+    padding: 5px;
+}
+/*destination*/
+.tabs {
+   margin:30px 10px;
+   border-bottom: 1px solid gray;
+   border-radius: 2px;
+}
+.tabs a{
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-decoration: none;
+    color:dimgray;
+}
+.tabs a.active{
+    text-decoration: none;
+    border-bottom: 3px solid #000;
+    border-radius: 2px;
+    color:black
+}
+.box2 p{
+    font-size: 12px;
+}
+.image-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.images-group{
+    width: 25px;
+    height: 25px;
+    display: flex;
+}
+.images-group img{
+    margin-left: 5px;
+}
+.image-number img{
+    width: 60px;
+   
+}
+.para-group p{
+    font-size: 13px;
+}
+/*blogs*/
+.blog1-image p , .blog2-image1 p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 25px;
+}
+/*customer*/
+.box3{
+     padding: 15px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+     border-radius: 10px;
+}
+/*footer*/
+.footer-contents{
+    padding: 35px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+footer .icons{
+    width:130px;
+    font-size: 22px;
+    margin-left:10px;
+}
+footer .icons .icon{
+    margin-left:5px;
+    background:#000;
+    color: #fff;
+    padding: 5px 7px;
+}
+/*media query*/
+@media(max-width:768px){
+    .mainPage-contents h1{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.mainPage-contents p{
+    color: #fff;
+    font-size: 12px;
+}
+    .main-elements{
+    border-radius: 10px;
+}
+.m-element h3{
+    font-size: 15px; 
+}
+ .m-element .icon{
+      font-size: 10px;  
+    }
+    
+.m-element input[type=search]{
+    font-size: 12px;
+}
+.m-element input[type=date]{
+    font-size: 12px;
+    
+}
+    .main-elements .btn{
+        font-size: 10px;
+    }
+}
+@media(max-width:524px){
+    .mainPage-contents h1{
+    font-size: 25px;
+}
+.mainPage-contents p{
+    font-size: 10px;
+}
+.main-elements{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+.m-element h3{
+    font-size: 13px; 
+}
+.m-element input[type="search"]{
+    font-size: 12px;
+}
+.m-element .icon{
+     font-size: 10px;   
+    }
+}
+@media(max-width:992px){
+    .box1{
+     margin-bottom: 10px;
+}
+}
+/*hhhfghffffffffffffffffffffff*/
+
+@media(max-width:513px){
+    .destination .main-title h2{
+        font-size: 18px;
+    }
+}
+@media(max-width:992px){
+    .box3{
+     margin-bottom: 10px;
+}
+}
+@media(max-width:1115px){
+    footer .icons{
+     width:70px;  
+    }
+    footer .icons .icon{
+    font-size: 16px;
+    margin-bottom:3px;
+}
+@media(max-width:1115px){
+    footer .icons{
+     width:100px;  
+    }
+    footer .icons .icon{
+    font-size: 13px;
+    margin-bottom:3px;
+}  
+}
+@media(max-width:990px){
+   footer .footer-contents ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width:770px){
+    footer .footer-contents p{
+        font-size: 12px;
+    } 
+}
+    
